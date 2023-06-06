@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-for d1 in range(0, 10):
-    for d2 in range(d1 + 1, 10):
-        if d1 == 8 and d2 == 9:
-            print("{}{}".format(d1, d2))
+for dn1 in range(0, 10):
+    for dn2 in range(dn1 + 1, 10):
+        if dn1 == 8 and dn2 == 9:
+            print("{}{}".format(dn1, dn2))
         else:
-            print("{}{}".format(d1,d2), end=", ")
+            print("{}{}".format(dn1,dn2), end=", ")
