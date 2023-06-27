@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
+"""Define a class Square."""
+
 
 class Square:
-
+    """Represents square."""
 
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
@@ -10,6 +12,7 @@ class Square:
 
     @property
     def size(self):
+        """Get/set the current size."""
         return (self.__size)
 
     @size.setter
@@ -22,6 +25,7 @@ class Square:
 
     @property
     def position(self):
+        """Get/set the current position."""
         return (self.__position)
 
     @position.setter
@@ -34,9 +38,11 @@ class Square:
         self.__position = value
 
     def area(self):
+        """Return the current area."""
         return (self.__size * self.__size)
 
     def my_print(self):
+        """Print # character."""
         if self.__size == 0:
             print("")
             return
